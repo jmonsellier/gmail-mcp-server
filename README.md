@@ -1,4 +1,5 @@
 # Gmail Server for Model Context Protocol (MCP)
+[![smithery badge](https://smithery.ai/badge/gmail)](https://smithery.ai/server/gmail)
 
 This MCP server integrates with Gmail to enable sending, removing, reading, drafting, and responding to emails.
 
@@ -108,6 +109,14 @@ The following parameters must be set
 | `--directory`   | Absolute path to `gmail` directory containing server |
 | `--creds-file-path` | Absolute path to credentials file created in Gmail API Setup. |
 | `--token-path`      | Absolute path to store and retrieve access and refresh tokens for application.  |
+
+### Installing via Smithery
+
+To install Gmail for Claude Desktop automatically via [Smithery](https://smithery.ai/server/gmail):
+
+```bash
+npx -y @smithery/cli install gmail --client claude
+```
 
 ### Troubleshooting with MCP Inspector
 
